@@ -156,16 +156,6 @@ const projectsData = [
     stack: ["React.js", "Vite", "CSS3 Animations", "Lucide Icons"],
     github: "https://github.com/IshwarJadhav701",
     live: "#home"
-  },
-  {
-    number: "03",
-    title: "Interactive Web Applications",
-    subtitle: "JavaScript & Frontend Projects",
-    description:
-      "A collection of responsive JavaScript web applications demonstrating state management, asynchronous data fetching, local storage, and dynamic user interfaces.",
-    stack: ["JavaScript", "HTML5", "CSS3", "DOM APIs"],
-    github: "https://github.com/IshwarJadhav701",
-    live: null
   }
 ];
 
