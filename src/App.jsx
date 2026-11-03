@@ -149,13 +149,13 @@ const projectsData = [
   },
   {
     number: "02",
-    title: "Modern Interactive Portfolio",
-    subtitle: "High-Performance Web Portfolio",
+    title: "Personal Portfolio Website",
+    subtitle: "React.js Developer Portfolio",
     description:
-      "Modern developer portfolio built with React and Vite featuring dynamic SVG wave transitions, hanging portrait frame, interactive audio controls, and responsive UI.",
-    stack: ["React.js", "Vite", "CSS3 Animations", "Lucide Icons"],
-    github: "https://github.com/IshwarJadhav701",
-    live: "#home"
+      "Developed a responsive personal portfolio website using React.js to showcase technical skills, projects, and educational background. Implemented reusable components, interactive navigation, and deployed on Vercel for public access.",
+    stack: ["React.js", "JavaScript", "JSX", "HTML5", "CSS3"],
+    github: "https://github.com/IshwarJadhav701/ishwar-Portfolio-",
+    live: "https://ishwar-portfolio-one.vercel.app"
   }
 ];
 
