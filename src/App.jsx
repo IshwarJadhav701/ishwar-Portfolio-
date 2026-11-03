@@ -415,25 +415,24 @@ function App() {
             <h2 className="about-title">Hello, I'm Ishwar</h2>
             <div className="about-text-content">
               <p>
-                I am <strong>Ishwar Jadhav</strong>, a 2026 <strong>BSc Computer Science (BCS)</strong> graduate
-                (<strong>7.54 CGPA</strong>) from <strong>Dr. Babasaheb Ambedkar Marathwada University Sambhajinagar</strong>,
-                currently based in <strong>Pune, Maharashtra</strong>, specializing in Frontend Development, React.js, and Full Stack Web
-                Technologies.
+                I am a <strong>Computer Science graduate (BCS, 2026)</strong> with a strong interest in{" "}
+                <strong>Frontend Development</strong> and <strong>Full Stack Web Technologies</strong>. I specialize in building
+                responsive, user-friendly web applications using{" "}
+                <strong>HTML5, CSS3, JavaScript, React.js, and JSX</strong>.
               </p>
               <p>
-                I have hands-on experience in building responsive web applications, interactive user interfaces,
-                RESTful API integration, and database-driven solutions using{" "}
-                <strong>HTML5, CSS3, JavaScript (ES6+), React.js, JSX, Bootstrap, Core Java, Spring Boot, JDBC, and MySQL</strong>.
+                I have practical experience developing interactive user interfaces, implementing application features, and working
+                with <strong>SQL and MySQL</strong> databases. Currently, I am expanding my backend development knowledge by
+                learning <strong>Core Java, Spring Boot, and JDBC</strong>.
               </p>
               <p>
-                My major featured project is <strong>ECartline</strong>—a full-stack e-commerce web application with
-                product catalog browsing, shopping cart workflows, account creation, admin panel, and clean responsive design. I enjoy
-                solving real-world problems through clean code, modern web design, and continuously learning new tools and
-                frameworks.
+                My featured project, <strong>ECartline</strong>, is a full-stack e-commerce web application featuring product browsing,
+                shopping cart functionality, user account management, and an admin panel.
               </p>
               <p>
-                My goal is to launch my career as an <strong>Entry-Level Frontend Developer or Full Stack Developer</strong> and
-                contribute to forward-thinking engineering teams with dedication, fast learning, and high-quality work.
+                I enjoy solving problems, writing clean code, and exploring modern web technologies. I am seeking an opportunity as an{" "}
+                <strong>Entry-Level Frontend Developer or Full Stack Developer</strong> where I can apply my skills, gain industry
+                experience, and grow as a software developer.
               </p>
             </div>
 
