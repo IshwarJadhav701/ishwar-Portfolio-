@@ -416,23 +416,23 @@ function App() {
             <div className="about-text-content">
               <p>
                 I am a <strong>Computer Science graduate (BCS, 2026)</strong> with a strong interest in{" "}
-                <strong>Frontend Development</strong> and <strong>Full Stack Web Technologies</strong>. I specialize in building
-                responsive, user-friendly web applications using{" "}
-                <strong>HTML5, CSS3, JavaScript, React.js, and JSX</strong>.
+                <strong>Frontend Development</strong> and <strong>Full Stack Web Technologies</strong>. I have knowledge of
+                building responsive and user-friendly web applications using{" "}
+                <strong>HTML5, CSS3, JavaScript, React.js, JSX, and Bootstrap</strong>.
               </p>
               <p>
-                I have practical experience developing interactive user interfaces, implementing application features, and working
-                with <strong>SQL and MySQL</strong> databases. Currently, I am expanding my backend development knowledge by
-                learning <strong>Core Java, Spring Boot, and JDBC</strong>.
+                My technical skills include frontend technologies such as <strong>React.js and JavaScript</strong>, along with
+                backend technologies including <strong>Core Java, Spring Boot, JDBC, and RESTful APIs</strong>. I have also learned{" "}
+                <strong>SQL and MySQL</strong> for database management and data handling.
               </p>
               <p>
                 My featured project, <strong>ECartline</strong>, is a full-stack e-commerce web application featuring product browsing,
                 shopping cart functionality, user account management, and an admin panel.
               </p>
               <p>
-                I enjoy solving problems, writing clean code, and exploring modern web technologies. I am seeking an opportunity as an{" "}
-                <strong>Entry-Level Frontend Developer or Full Stack Developer</strong> where I can apply my skills, gain industry
-                experience, and grow as a software developer.
+                I am passionate about writing clean code, solving real-world problems, and continuously learning new technologies. I am
+                seeking an opportunity as an <strong>Entry-Level Frontend Developer or Full Stack Developer</strong> where I can apply
+                my technical knowledge, gain practical industry experience, and grow as a software developer.
               </p>
             </div>
 
