@@ -20,38 +20,120 @@ import {
   Download,
   FileText,
   Eye,
-  GraduationCap
+  GraduationCap,
+  Sparkles,
+  Braces,
+  Cpu,
+  MonitorSmartphone,
+  Coffee,
+  Terminal,
+  Boxes,
+  Leaf,
+  Zap,
+  Globe,
+  ArrowRight,
+  Compass
 } from "lucide-react";
 
-const skillsData = [
+// 1. Frontend Development Skills (Learned & Applied)
+const frontendSkills = [
   {
-    number: "01",
-    title: "Frontend Development",
-    icon: <Code2 size={24} />,
-    description:
-      "HTML5, CSS3, JavaScript (ES6+), React.js, JSX, Bootstrap, Responsive Web Design, Component Architecture, and Modern User Interface Development."
+    name: "HTML5",
+    icon: <Code2 size={22} />,
+    description: "Semantic elements, web standards & accessible content structure."
   },
   {
-    number: "02",
-    title: "Backend & Core Java",
-    icon: <Layers size={24} />,
-    description:
-      "Core Java Fundamentals, JDBC, Spring Boot, REST API Integration, Object-Oriented Programming (OOP), and Backend Logic."
+    name: "CSS3",
+    icon: <Sparkles size={22} />,
+    description: "Modern styling, Flexbox, CSS Grid, media queries & animations."
   },
   {
-    number: "03",
-    title: "Database & Storage",
-    icon: <Database size={24} />,
-    description:
-      "MySQL, SQL Queries, Relational Database Management, Schema Design, and Structured Data Storage."
+    name: "JavaScript",
+    icon: <Braces size={22} />,
+    description: "ES6+ syntax, DOM manipulation, asynchronous logic & event handling."
   },
   {
-    number: "04",
-    title: "Tools & Platforms",
-    icon: <Wrench size={24} />,
-    description:
-      "Git, GitHub Version Control, VS Code, Eclipse IDE, Vite, Responsive Layouts, and Deployment Practices."
+    name: "React.js",
+    icon: <Cpu size={22} />,
+    description: "Component architecture, virtual DOM & interactive single-page apps."
+  },
+  {
+    name: "JSX",
+    icon: <Code2 size={22} />,
+    description: "Declarative syntax combining JavaScript logic with UI templates."
+  },
+  {
+    name: "Responsive Web Design",
+    icon: <MonitorSmartphone size={22} />,
+    description: "Mobile-first layouts, adaptive viewports & cross-device compatibility."
+  },
+  {
+    name: "React Hooks",
+    icon: <Layers size={22} />,
+    description: "useState, useEffect, useContext & state lifecycle management."
   }
+];
+
+// 2. Backend Development Technologies (Currently Learning & Practising)
+const backendSkills = [
+  {
+    name: "Java",
+    icon: <Coffee size={22} />,
+    status: "In Progress",
+    description: "Core syntax, data types, control flow & console applications."
+  },
+  {
+    name: "Core Java",
+    icon: <Terminal size={22} />,
+    status: "Practising",
+    description: "Collections framework, exception handling, string & I/O operations."
+  },
+  {
+    name: "Object-Oriented Programming (OOP)",
+    icon: <Boxes size={22} />,
+    status: "In Progress",
+    description: "Encapsulation, inheritance, polymorphism, abstraction & modular code."
+  },
+  {
+    name: "Spring Framework",
+    icon: <Leaf size={22} />,
+    status: "Learning",
+    description: "Inversion of Control (IoC), Dependency Injection (DI) & core container."
+  },
+  {
+    name: "Spring Boot",
+    icon: <Zap size={22} />,
+    status: "Learning",
+    description: "Application setup, starter modules, auto-configuration & REST services."
+  },
+  {
+    name: "JDBC",
+    icon: <Database size={22} />,
+    status: "Practising",
+    description: "Java Database Connectivity, query execution & result set handling."
+  },
+  {
+    name: "MySQL",
+    icon: <Database size={22} />,
+    status: "Practising",
+    description: "Relational database schema, primary/foreign keys & CRUD queries."
+  },
+  {
+    name: "REST APIs",
+    icon: <Globe size={22} />,
+    status: "Learning",
+    description: "HTTP verbs (GET, POST, PUT, DELETE), JSON handling & API endpoints."
+  }
+];
+
+// 3. Backend Learning Journey Sequence
+const learningJourneySteps = [
+  { step: "01", title: "Java Basics", desc: "Syntax & Control Flow" },
+  { step: "02", title: "OOP", desc: "Classes & Inheritance" },
+  { step: "03", title: "JDBC", desc: "Database Connectivity" },
+  { step: "04", title: "Spring Framework", desc: "IoC & Dependency Injection" },
+  { step: "05", title: "Spring Boot", desc: "Starter & Microservices" },
+  { step: "06", title: "REST API Development", desc: "Endpoints & Integration" }
 ];
 
 const projectsData = [
@@ -408,26 +490,104 @@ function App() {
         {/* ================= TECHNICAL SKILLS (WHITE SECTION) ================= */}
         <section className="skills-section-light" id="skills">
           <div className="skills-container reveal">
+            {/* Main Header */}
             <div className="skills-header">
               <span className="pill-badge">Technical Skills</span>
               <h2 className="skills-title">My Technical Expertise</h2>
               <p className="skills-subtitle">
-                Skilled in Frontend Web Development, React.js, JavaScript, HTML5, CSS3, Core Java, Spring Boot,
-                Database Management with MySQL, Git, GitHub, and Modern Web Deployment.
+                A clear overview of the frontend technologies I use to build responsive user interfaces, along with the backend technologies I am actively learning.
               </p>
             </div>
 
-            <div className="skills-card-grid">
-              {skillsData.map((skill, idx) => (
-                <div className={`skill-white-card reveal reveal-delay-${idx + 1}`} key={skill.number}>
-                  <div className="skill-card-top">
-                    <span className="skill-card-icon">{skill.icon}</span>
-                    <span className="skill-card-number">{skill.number}</span>
-                  </div>
-                  <h3 className="skill-card-title">{skill.title}</h3>
-                  <p className="skill-card-desc">{skill.description}</p>
+            {/* 1. FRONTEND DEVELOPMENT SECTION */}
+            <div className="skills-group-block frontend-group">
+              <div className="skills-group-header">
+                <div className="group-title-wrap">
+                  <span className="group-accent-line"></span>
+                  <h3 className="skills-group-title">Frontend Development</h3>
                 </div>
-              ))}
+                <p className="skills-group-subtitle">
+                  Technologies I have learned and use to build responsive and interactive user interfaces.
+                </p>
+              </div>
+
+              <div className="skills-grid-cards">
+                {frontendSkills.map((skill, idx) => (
+                  <div
+                    className={`skill-tech-card frontend-card reveal reveal-delay-${(idx % 4) + 1}`}
+                    key={skill.name}
+                  >
+                    <div className="skill-tech-top">
+                      <span className="skill-tech-icon">{skill.icon}</span>
+                      <span className="skill-tech-number">0{idx + 1}</span>
+                    </div>
+                    <h4 className="skill-tech-name">{skill.name}</h4>
+                    <p className="skill-tech-desc">{skill.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* 2. BACKEND DEVELOPMENT SECTION */}
+            <div className="skills-group-block backend-group">
+              <div className="skills-group-header">
+                <div className="group-title-wrap">
+                  <span className="group-accent-line backend"></span>
+                  <div className="title-with-badge">
+                    <h3 className="skills-group-title">Backend Development</h3>
+                    <span className="badge-learning">
+                      <span className="learning-dot"></span> Currently Learning
+                    </span>
+                  </div>
+                </div>
+                <p className="skills-group-subtitle">
+                  Building my backend development knowledge through practical learning and projects.
+                </p>
+              </div>
+
+              <div className="skills-grid-cards">
+                {backendSkills.map((tech) => (
+                  <div
+                    className="skill-tech-card backend-card reveal"
+                    key={tech.name}
+                  >
+                    <div className="skill-tech-top">
+                      <span className="skill-tech-icon backend-icon">{tech.icon}</span>
+                      <span className="badge-tech-status">{tech.status}</span>
+                    </div>
+                    <h4 className="skill-tech-name">{tech.name}</h4>
+                    <p className="skill-tech-desc">{tech.description}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* 3. LEARNING JOURNEY INDICATOR */}
+              <div className="learning-journey-box reveal">
+                <div className="journey-head">
+                  <div className="journey-title-wrap">
+                    <Compass size={18} className="text-red" />
+                    <h4>Backend Learning Journey</h4>
+                  </div>
+                  <span className="journey-note">Step-by-step learning progression: from foundational Java to REST APIs</span>
+                </div>
+
+                <div className="journey-sequence-row">
+                  {learningJourneySteps.map((item, idx) => (
+                    <React.Fragment key={item.step}>
+                      <div className="journey-step-node">
+                        <div className="step-badge-num">Step {item.step}</div>
+                        <div className="step-title-text">{item.title}</div>
+                        <div className="step-desc-text">{item.desc}</div>
+                      </div>
+                      {idx < learningJourneySteps.length - 1 && (
+                        <div className="journey-arrow-divider" aria-hidden="true">
+                          <ArrowRight size={16} />
+                        </div>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </section>
