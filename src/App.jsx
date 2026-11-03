@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import profilePhoto from "./assets/profile.jpg";
 import {
   Github,
   Linkedin,
@@ -320,7 +321,7 @@ function App() {
                 {/* Framed Photo Card */}
                 <div className="framed-card">
                   <img
-                    src={imgError ? "/profile-placeholder.svg" : "/profile.jpg"}
+                    src={imgError ? "/profile-placeholder.svg" : profilePhoto}
                     onError={() => setImgError(true)}
                     alt="Ishwar Jadhav"
                     className="framed-photo"
