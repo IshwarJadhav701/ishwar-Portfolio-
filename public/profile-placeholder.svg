@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1113" />
+      <stop offset="50%" stop-color="#2d1216" />
+      <stop offset="100%" stop-color="#12090b" />
+    </linearGradient>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a87c" />
+      <stop offset="100%" stop-color="#c38d68" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c1a1d" />
+      <stop offset="100%" stop-color="#150b0d" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#ff3b42" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ff3b42" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg)" />
+  <circle cx="200" cy="180" r="140" fill="url(#glow)" />
+
+  <!-- Shoulders & Shirt -->
+  <path d="M70,480 C70,360 120,330 200,330 C280,330 330,360 330,480 Z" fill="url(#shirt)" />
+  <path d="M160,330 L200,380 L240,330 Z" fill="#94a3b8" opacity="0.4" />
+
+  <!-- Neck -->
+  <rect x="175" y="270" width="50" height="70" rx="8" fill="url(#skin)" />
+  <path d="M175,285 C190,300 210,300 225,285 L225,310 C210,320 190,320 175,310 Z" fill="#b07d5b" opacity="0.3" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="210" rx="55" ry="70" fill="url(#skin)" />
+
+  <!-- Hair -->
+  <path d="M140,200 C140,130 160,115 200,115 C240,115 260,130 260,200 C250,150 230,135 200,135 C170,135 150,150 140,200 Z" fill="url(#hair)" />
+  <path d="M145,185 C142,150 160,125 195,120 C235,115 255,135 258,165 C245,145 225,135 195,138 C165,140 152,160 145,185 Z" fill="#150b0d" />
+
+  <!-- Ears -->
+  <circle cx="145" cy="215" r="12" fill="url(#skin)" />
+  <circle cx="255" cy="215" r="12" fill="url(#skin)" />
+
+  <!-- Smile & Eyes (Silhouette Style) -->
+  <path d="M175,195 Q185,190 195,195" stroke="#2c1a1d" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M205,195 Q215,190 225,195" stroke="#2c1a1d" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M185,240 Q200,255 215,240" stroke="#b07d5b" stroke-width="3.5" stroke-linecap="round" fill="none" />
+
+  <!-- Code / Tech Tag Overlay -->
+  <rect x="110" y="420" width="180" height="34" rx="17" fill="rgba(15,10,12,0.85)" stroke="#ff454a" stroke-width="1.5" />
+  <text x="200" y="442" fill="#ffffff" font-family="'Courier New', monospace" font-size="13" font-weight="bold" text-anchor="middle">Ishwar Jadhav</text>
+</svg>
+
